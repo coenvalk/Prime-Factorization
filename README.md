@@ -2,6 +2,7 @@ This is a program that finds the prime factorization of either
 one number N, or finds the prime factorization of all numbers
 under N and stores that in a file.
 
+```
 USAGE:
 
 INPUT:
@@ -20,10 +21,12 @@ EXPECTED OUTPUT: in primes.txt
 7: 7
 8: 2 2 2
 9: 3 3
+```
 
 Included is text files that are already filled with prime factorizations.
 
 Performance: on my laptop
+```
 ./prime_fac primes-100.txt 100
 	    0.004s
 ./prime_fac primes-1000.txt 1000
@@ -38,3 +41,4 @@ Performance: on my laptop
 ./prime_fac 18446744073709551557
 	    (largest prime that can be represented in an unsigned long long int)
 	    38.397s
+```
