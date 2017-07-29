@@ -1,3 +1,6 @@
+# Prime Factorization
+[![Build Status](https://travis-ci.org/coenvalk/Prime-Factorization.svg?branch=master)](https://travis-ci.org/coenvalk/Prime-Factorization)
+
 This is a program that finds the prime factorization of either
 one number N, or finds the prime factorization of all numbers
 under N and stores that in a file.
