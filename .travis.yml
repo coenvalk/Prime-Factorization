@@ -1,3 +1,5 @@
-language: cpp
+language: c
 
 install: make
+
+script: ./prime_fac 10
