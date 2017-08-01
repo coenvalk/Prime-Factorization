@@ -20,8 +20,8 @@ test4:
 	diff output.txt tests/test4.txt
 
 test5:
-	./prime_fac.out output.txt 1000
-	diff output.txt primes-1000.txt
+	./prime_fac.out output.txt 1000000
+	diff output.txt primes-1000000.txt
 
 test: test1 test2 test3 test4 test5
 	rm output.txt
